@@ -12,9 +12,11 @@ WITH combined_data AS ( -- aplicamos un conjunto de CTE
     INNER JOIN skills_job_dim sj ON sj.skill_id = sd.skill_id
     INNER JOIN job_postings_fact jp ON jp.job_id = sj.job_id
     WHERE
-        jp.job_work_from_home = TRUE AND
-        jp.job_title_short = 'Data Analyst' AND
-        salary_year_avg IS NOT NULL
+        jp.job_work_from_home = TRUE
+        AND jp.job_title_short = 'Data Analyst'
+        AND salary_year_avg IS NOT NULL
+        AND (sd.type = 'analyst_tools'
+        OR sd.type = 'programming')
     GROUP BY sd.skill_id
 ), ranked_skills AS (
     SELECT
@@ -22,7 +24,7 @@ WITH combined_data AS ( -- aplicamos un conjunto de CTE
         skills,
         demand_count,
         avg_salary,
-        ROW_NUMBER() OVER (ORDER BY avg_salary DESC, demand_count DESC) AS rank
+        ROW_NUMBER() OVER (ORDER BY demand_count DESC, avg_salary DESC) AS rank
     FROM
         combined_data
     WHERE
@@ -36,7 +38,7 @@ SELECT
 FROM
     ranked_skills
 WHERE
-    rank <= 30
+    rank <= 10
 ORDER BY
     rank ASC;
 

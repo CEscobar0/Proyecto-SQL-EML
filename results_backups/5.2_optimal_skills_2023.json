@@ -1,0 +1,62 @@
+[
+  {
+    "skill_id": 0,
+    "skills": "sql",
+    "demand_count": "398",
+    "avg_salary": "97237"
+  },
+  {
+    "skill_id": 181,
+    "skills": "excel",
+    "demand_count": "256",
+    "avg_salary": "87288"
+  },
+  {
+    "skill_id": 1,
+    "skills": "python",
+    "demand_count": "236",
+    "avg_salary": "101397"
+  },
+  {
+    "skill_id": 182,
+    "skills": "tableau",
+    "demand_count": "230",
+    "avg_salary": "99288"
+  },
+  {
+    "skill_id": 5,
+    "skills": "r",
+    "demand_count": "148",
+    "avg_salary": "100499"
+  },
+  {
+    "skill_id": 183,
+    "skills": "power bi",
+    "demand_count": "110",
+    "avg_salary": "97431"
+  },
+  {
+    "skill_id": 7,
+    "skills": "sas",
+    "demand_count": "63",
+    "avg_salary": "98902"
+  },
+  {
+    "skill_id": 186,
+    "skills": "sas",
+    "demand_count": "63",
+    "avg_salary": "98902"
+  },
+  {
+    "skill_id": 196,
+    "skills": "powerpoint",
+    "demand_count": "58",
+    "avg_salary": "88701"
+  },
+  {
+    "skill_id": 185,
+    "skills": "looker",
+    "demand_count": "49",
+    "avg_salary": "103795"
+  }
+]
