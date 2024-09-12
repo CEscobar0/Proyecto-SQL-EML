@@ -148,7 +148,7 @@ ORDER BY
 
 ***Recuerda:** El mercado laboral está en constante evolución, por lo que es importante mantenerse actualizado con las últimas tendencias y tecnologías.*
 
-![Habilidades necesarias para tener los mejores trabajos](project_sql\assets\dd_pago_hab_top10_2023.png)
+![Habilidades necesarias para tener los mejores trabajos](project_sql/assets/dd_pago_hab_top10_2023.png)
 
 *Grafico de columnas donde se visualizan las habilidades necesarias para tener los trabajos mejor pagados como **Data Analyst**, así como tambien la remuneración promedio asociada a las mismas; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
 
