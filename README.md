@@ -276,7 +276,7 @@ Entendamos mejor estos datos con un gráfico:
 
 ![Habilidades necesarias para tener los mejores trabajos](project_sql/assets/5.0_top_optimal_skills.png)
 
-*Grafico de barras donde se visualizan las habilidades optimas a aprender para tener los trabajos mejor pagados como **Data Analyst**, así como tambien la remuneración promedio asociada a las mismas dentro de las barras; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
+*Grafico de barras donde se visualizan las habilidades optimas a aprender para tener los trabajos mejor pagados como **Data Analyst**, así como tambien la remuneración promedio asociada a las mismas dentro de las barras; las habilidades se ordenan de mayor a menor demanda, siendo la demanda el numero de veces que la habilidad aparece en las ofertas de trabajo; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
 
 | Habilidad | Demanda | Salario anual promedio ($) |
 |---|---|---|
