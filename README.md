@@ -150,7 +150,7 @@ ORDER BY
 
 ![Habilidades necesarias para tener los mejores trabajos](project_sql/assets/dd_pago_hab_top10_2023.png)
 
-*Grafico de columnas donde se visualizan las habilidades necesarias para tener los trabajos mejor pagados como **Data Analyst**, así como tambien la remuneración promedio asociada a las mismas; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
+*Grafico de columnas donde se visualizan las habilidades necesarias para tener los trabajos mejor pagados como **Data Analyst**, así como tambien la remuneración promedio asociada a las mismas; adicionalmente el grafico de linea demuestra la demanda de estas habilidades en tantos por cada 10 empresas; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
 
 ### 3. ¡Las habilidades más demandadas en todo el sectoe!
 
@@ -171,7 +171,7 @@ Herramientas como Tableau y Power BI permiten comunicar los resultados de un an�
 | Tableau | 3.745 |
 | Power BI | 2.609 |
 
-*Tabla; se muestran las 5 habilidades más demandadas para los puestos de **'data analyst'***
+*Tabla; se muestran las 5 habilidades escenciales para los puestos de **'data analyst'***
 
 ### 4. Habilidades mejor pagadas
 Descubramos cúales son las habilidades mejor remuneradas
@@ -227,7 +227,7 @@ Resumen de los hallazgos
 | GCP | 122,500 |
 | Microstrategy | 121,619 |
 
-*Tabla; muestra en orden descendente las 25 habilidades con mayores salarios anuales promedios; recopilado de todas las ofertas de empleo remoto como **'data analyst'***
+*Tabla; muestra en orden descendente las 25 habilidades con mayores salarios anuales promedios; recopilado de todas las ofertas de empleo remoto como **'data analyst'**, la tabla demuestra una clara tendencia hacia los lengajes de programacion y herramientas computación en la nube*
 
 ### 5. ¿Cuales son las habiidades optimas que aprender?
 Combinando los hallazgos obtenidos hasta ahora podemos determinar que lo más óptimo sea aprender una habiidad que ofrezca buenos sueldos y tenga una alta demanda, para ellos el siguiente query utiliza CTEs para ahondar en esta pegunta.
@@ -272,49 +272,39 @@ WHERE
 ORDER BY
     rank ASC;
 ```
+Entendamos mejor estos datos con un gráfico:
+
+![Habilidades necesarias para tener los mejores trabajos](project_sql/assets/5.0_top_optimal_skills.png)
+
+*Grafico de barras donde se visualizan las habilidades optimas a aprender para tener los trabajos mejor pagados como **Data Analyst**, así como tambien la remuneración promedio asociada a las mismas dentro de las barras; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
+
 | Habilidad | Demanda | Salario anual promedio ($) |
 |---|---|---|
-| Go | 27 | 115,320 |
-| Confluence | 11 | 114,210 |
-| Hadoop | 22 | 113,193 |
-| Snowflake | 37 | 112,948 |
-| Azure | 34 | 111,225 |
-| BigQuery | 13 | 109,654 |
-| AWS | 32 | 108,317 |
-| Java | 17 | 106,906 |
-| SSIS | 12 | 106,683 |
-| Jira | 20 | 104,918 |
-| Oracle | 37 | 104,534 |
-| Looker | 49 | 103,795 |
-| NoSQL | 13 | 101,414 |
-| Python | 236 | 101,397 |
-| R | 148 | 100,499 |
-| Redshift | 16 | 99,936 |
-| Qlik | 13 | 99,631 |
-| Tableau | 230 | 99,288 |
-| SSRS | 14 | 99,171 |
-| Spark | 13 | 99,077 |
-| C++ | 11 | 98,958 |
-| SAS | 63 | 98,902 |
-| SQL Server | 35 | 97,786 |
-| Javascript | 20 | 97,587 |
-| Power BI | 110 | 97,431 |
-| SQL | 398 | 97,237 |
-| Flow | 28 | 97,200 |
-| Alteryx | 17 | 94,145 |
-| SPSS | 24 | 92,170 |
+| SQL | 398 | 97237 |
+| Excel | 256 | 87288 |
+| Python | 236 | 101397 |
+| Tableau | 230 | 99288 |
+| R | 148 | 100499 |
+| Power BI | 110 | 97431 |
+| SAS | 63 | 98902 |
+| SAS | 63 | 98902 |
+| PowerPoint | 58 | 88701 |
+| Looker | 49 | 103795 |
 
-*Tabla con las habilidades óptimas; recopilado de todas las ofertas de empleo remoto como **'data analyst'**; ordenado por salario de mayor a menor*
+*Tabla con las habilidades óptimas; recopilado de todas las ofertas de empleo remoto como **'data analyst'**; ordenado por demanda de mayor a menor*
 
 A partir de los datos proporcionados, podemos realizar un análisis preliminar y extraer las siguientes conclusiones:
 
 #### Tendencias Destacadas
-* **Dominancia de Python y SQL:** Estas habilidades fundamentales para el análisis de datos y la gestión de bases de datos muestran una alta demanda y salarios competitivos, consolidándose como pilares en el sector. 
-* **Ascenso de las tecnologías en la nube:** Habilidades relacionadas con plataformas como AWS, Azure y GCP evidencian un crecimiento exponencial, reflejando la creciente adopción de la nube en las empresas.
-* **Importancia de la visualización de datos:** Herramientas como Tableau y Power BI destacan por su alta demanda, subrayando la necesidad de comunicar los hallazgos de manera efectiva.
-* **Crecimiento del Big Data:** Tecnologías como Hadoop y Spark, diseñadas para manejar grandes volúmenes de datos, muestran una demanda sostenida.
-* **Perpetuidad de los lenguajes clásicos:** Lenguajes como Java, C++ y JavaScript mantienen su relevancia, demostrando su versatilidad y adaptación a nuevas tecnologías.
+1. **SQL es la habilidad más demandada:** SQL, un lenguaje fundamental para bases de datos, tiene el mayor número de solicitudes, lo que indica su amplio uso en diversas industrias.
 
+2. **Python es altamente buscado y bien remunerado:** Python, un lenguaje de programación versátil, tiene una demanda significativa y ofrece un salario promedio competitivo.
+
+3. **Las herramientas de visualización de datos están en demanda:** Las habilidades relacionadas con la visualización de datos, como Tableau y Power BI, también tienen una alta demanda, lo que refleja la creciente importancia de los insights basados en datos.
+
+4. **La programación en R tiene una demanda moderada pero un alto salario:** Si bien la demanda de R, otro lenguaje de programación estadístico, es menor que la de SQL o Python, ofrece un salario promedio relativamente alto.
+
+5. **Las habilidades especializadas tienen salarios más altos:** Habilidades como Looker, una plataforma de datos, y SAS, un conjunto de software estadístico, tienen una demanda más baja pero ofrecen salarios promedio significativamente más altos, lo que sugiere que la especialización puede conducir a un mayor potencial de ingresos.
 ## Lo que he aprendido
 ¡Qué viaje ha sido este curso de SQL!
 
