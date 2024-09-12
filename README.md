@@ -96,6 +96,7 @@ Tres puntos clave del analisis de los mejores trabajos remotos de _data analyst_
 **¡Estos análisis nos brindan una visión general del mercado laboral de los analistas de datos!**
 
 ![Top 10 trabajos remotos mejor pagados](assets\dist_salarios_promedios.png)
+
 *Grafico de barras donde se visualizan los salarios de los 10 trabajos mejor pagados como **Data Analyst**; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
 
 ### 2. ¿Que necesitas para conseguir estos empleos?
@@ -148,6 +149,7 @@ ORDER BY
 ***Recuerda:** El mercado laboral está en constante evolución, por lo que es importante mantenerse actualizado con las últimas tendencias y tecnologías.*
 
 ![Habilidades necesarias para tener los mejores trabajos](assets\dd_pago_hab_top10_2023.png)
+
 *Grafico de columnas donde se visualizan las habilidades necesarias para tener los trabajos mejor pagados como **Data Analyst**, así como tambien la remuneración promedio asociada a las mismas; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
 
 ### 3. ¡Las habilidades más demandadas en todo el sectoe!
@@ -168,6 +170,7 @@ Herramientas como Tableau y Power BI permiten comunicar los resultados de un an�
 | Python | 4.330 |
 | Tableau | 3.745 |
 | Power BI | 2.609 |
+
 *Tabla; se muestran las 5 habilidades más demandadas para los puestos de **'data analyst'***
 
 ### 4. Habilidades mejor pagadas
@@ -223,6 +226,7 @@ Resumen de los hallazgos
 | Postgresql | 123,879 |
 | GCP | 122,500 |
 | Microstrategy | 121,619 |
+
 *Tabla; muestra en orden descendente las 25 habilidades con mayores salarios anuales promedios; recopilado de todas las ofertas de empleo remoto como **'data analyst'***
 
 ### 5. ¿Cuales son las habiidades optimas que aprender?
@@ -299,6 +303,7 @@ ORDER BY
 | Flow | 28 | 97,200 |
 | Alteryx | 17 | 94,145 |
 | SPSS | 24 | 92,170 |
+
 *Tabla con las habilidades óptimas; recopilado de todas las ofertas de empleo remoto como **'data analyst'**; ordenado por salario de mayor a menor*
 
 A partir de los datos proporcionados, podemos realizar un análisis preliminar y extraer las siguientes conclusiones:
