@@ -95,7 +95,7 @@ Tres puntos clave del analisis de los mejores trabajos remotos de _data analyst_
 
 **¡Estos análisis nos brindan una visión general del mercado laboral de los analistas de datos!**
 
-![Top 10 trabajos remotos mejor pagados](project_sql\assets\dist_salarios_promedios.png)
+![Top 10 trabajos remotos mejor pagados](project_sql/assets/dist_salarios_promedios.png)
 
 *Grafico de barras donde se visualizan los salarios de los 10 trabajos mejor pagados como **Data Analyst**; hecho en Excel apartir de los resultados optenidos en las consultas SQL*
 
