@@ -7,7 +7,7 @@ FROM
 INNER JOIN skills_job_dim sj ON sj.skill_id = sd.skill_id
 INNER JOIN job_postings_fact jp ON jp.job_id = sj.job_id
 WHERE
-    jp.job_work_from_home = TRUE AND -- los trabajon son remotos.
+    jp.job_work_from_home = TRUE AND -- los trabajos son remotos.
     salary_year_avg IS NOT NULL AND -- se eliminan datos vacios para no afectar el promedio.
     jp.job_title_short = 'Data Analyst'
 GROUP BY sd.skills
@@ -18,6 +18,7 @@ LIMIT 25
 /*
 Habilidades más valoradas: alta demanda en Big Data
     - Pyspark
+    - Couchbase
     - Bitbucket
     - otras herramientas relacionadas con ciencia de datos y cloud computing son las más demandadas y mejor remuneradas.
 Tendencias del mercado:

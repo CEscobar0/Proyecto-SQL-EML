@@ -9,9 +9,9 @@ FROM job_postings_fact as jp
 LEFT JOIN
     company_dim AS cd ON jp.company_id = cd.company_id
 WHERE
-    jp.job_work_from_home = TRUE AND -- el filtro para trabajos remotos
-    jp.job_title_short = 'Data Analyst' AND -- el filtro adicional para tipo de puesto
-    salary_year_avg IS NOT NULL
+    jp.job_work_from_home = TRUE AND -- filtro para trabajos remotos
+    jp.job_title_short = 'Data Analyst' AND -- filtro adicional para tipo de puesto
+    salary_year_avg IS NOT NULL -- filtro para evitar valores vacíos
 ORDER BY
     salary_year_avg DESC
 LIMIT 10

@@ -8,7 +8,7 @@ FROM
 INNER JOIN skills_job_dim sj ON sj.skill_id = sd.skill_id
 INNER JOIN job_postings_fact jp ON jp.job_id = sj.job_id
 WHERE
-    jp.job_work_from_home = TRUE AND -- los trabajon son remotos.
+    jp.job_work_from_home = TRUE AND -- los trabajos son remotos.
     jp.job_title_short = 'Data Analyst'
 GROUP BY sd.skill_id
 ORDER BY skill_count DESC

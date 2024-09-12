@@ -8,7 +8,7 @@ WITH top_paying_jobs AS (
     LEFT JOIN
         company_dim AS cd ON jp.company_id = cd.company_id
     WHERE
-        jp.job_work_from_home = TRUE AND -- los trabajon son remotos.
+        jp.job_work_from_home = TRUE AND -- los trabajos son remotos.
         jp.job_title_short = 'Data Analyst' AND
         salary_year_avg IS NOT NULL
     ORDER BY
